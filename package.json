@@ -1,0 +1,40 @@
+{
+  "name": "cvhelper-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "panda codegen"
+  },
+  "dependencies": {
+    "@ark-ui/react": "^1.1.0",
+    "@react-icons/all-files": "^4.1.0",
+    "@tanstack/react-query": "^5.12.2",
+    "axios": "^1.6.2",
+    "bootstrap-icons": "^1.11.2",
+    "lodash-es": "^4.17.21",
+    "next": "^14.0.3",
+    "next-auth": "^4.24.5",
+    "next-themes": "^0.2.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.48.2",
+    "react-icons": "^4.12.0",
+    "react-merge-refs": "^2.1.1",
+    "react-textarea-autosize": "^8.5.3"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^0.20.1",
+    "@park-ui/panda-preset": "^0.25.0",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "typescript": "^5"
+  }
+}
