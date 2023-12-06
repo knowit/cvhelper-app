@@ -41,7 +41,7 @@ async function getCsrfToken(req: NextRequest) {
     
     const res = await fetch(url, options)
     const data = await res.json()
-    return data.csrfToken as string;
+    return res.ok ? data.csrfToken as string : "";
   } catch (error) {
     return ""
   }

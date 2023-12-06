@@ -1,6 +1,7 @@
 version: '3.9'
 services:
   cv-helper-app:
+    platform: linux/amd64
     build: .
     image: cv-helper-app
     ports:

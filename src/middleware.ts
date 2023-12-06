@@ -1,8 +1,14 @@
 // import { withAuthProvider } from "./middlewares/withAuthentication"
 
-import { withAuth } from "./middlewares/withAuthentication";
+import { withAuth } from "next-auth/middleware"
+import { authOptions } from "./options/authOptions"
 
-export default withAuth({});
+// import { withAuth } from "./middlewares/withAuthentication";
+// export default withAuth({});
+
+export default withAuth({
+  pages: authOptions.pages
+})
 
 export const config = {
   matcher: [
